@@ -28,30 +28,42 @@ export const themeConfig: ThemeConfig = {
   color: {
     // default theme mode
     mode: 'light', // light | dark | auto
-    light: {
-      // primary color
-      // used for title, hover, etc
-      // oklch color picker: https://oklch.com/
-      primary: 'oklch(25% 0.005 298)',
-      // secondary color
-      // used for post text
-      secondary: 'oklch(40% 0.005 298)',
-      // background color
-      background: 'oklch(96% 0.005 298)',
-      // highlight color
-      // used for navbar, selected text, etc
-      highlight: 'oklch(0.93 0.195089 103.2532 / 0.5)', // rgba(255,235,0,0.5)
-    },
-    dark: {
-      // primary color
-      primary: 'oklch(92% 0.005 298)',
-      // secondary color
-      secondary: 'oklch(77% 0.005 298)',
-      // background color
-      background: 'oklch(22% 0.005 298)',
-      // highlight color
-      highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)', // rgba(255,235,0,0.2)
-    },
+    // light: {
+    //   // primary color
+    //   // used for title, hover, etc
+    //   // oklch color picker: https://oklch.com/
+    //   primary: 'oklch(25% 0.005 298)',
+    //   // secondary color
+    //   // used for post text
+    //   secondary: 'oklch(40% 0.005 298)',
+    //   // background color
+    //   background: 'oklch(96% 0.005 298)',
+    //   // highlight color
+    //   // used for navbar, selected text, etc
+    //   highlight: 'oklch(0.93 0.195089 103.2532 / 0.5)', // rgba(255,235,0,0.5)
+    // },
+    // dark: {
+    //   // primary color
+    //   primary: 'oklch(92% 0.005 298)',
+    //   // secondary color
+    //   secondary: 'oklch(77% 0.005 298)',
+    //   // background color
+    //   background: 'oklch(22% 0.005 298)',
+    //   // highlight color
+    //   highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)', // rgba(255,235,0,0.2)
+    // },
+light: {
+  primary: 'oklch(0.24 0.053 261.24)',
+  secondary: 'oklch(0.39 0.053 261.24)',
+  background: 'oklch(1 0 0)',
+  highlight: 'oklch(0.93 0.195089 103.2532 / 0.5)',
+},
+dark: {
+  primary: 'oklch(0.92 0 0)',
+  secondary: 'oklch(0.79 0 0)',
+  background: 'oklch(0.24 0.016 265.21)',
+  highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)',
+},
   },
   // COLOR SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
@@ -171,7 +183,7 @@ export const themeConfig: ThemeConfig = {
       },
       {
         name: 'Email',
-        url: 'email@radishzz.cc',
+        url: 'gbc@joyu.ink',
       },
       // {
       //   name: 'X',

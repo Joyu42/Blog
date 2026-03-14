@@ -1,5 +1,6 @@
 ---
 import { themeConfig } from '@/config'
+import { beian } from '@/beian'
 import { getLangFromPath } from '@/i18n/lang'
 import { getLocalizedPath } from '@/i18n/path'
 
@@ -71,4 +72,12 @@ const socialLinks = links.map(({ name, url }) => {
   <p>
   Book, music, movie, tech, life.
   </p>
+
+  {(beian.icp || beian.gongan) && (
+    <p>
+      {beian.icp && <a class="highlight-hover py-0.8 transition-colors after:bottom-0.35em hover:c-primary" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">{beian.icp}</a>}
+      {beian.icp && beian.gongan && ' / '}
+      {beian.gongan && <a class="highlight-hover py-0.8 transition-colors after:bottom-0.35em hover:c-primary" href="https://beian.mps.gov.cn/" target="_blank" rel="noopener noreferrer">{beian.gongan}</a>}
+    </p>
+  )}
 </footer>

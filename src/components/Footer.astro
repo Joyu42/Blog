@@ -3,14 +3,7 @@ import { themeConfig } from '@/config'
 import { getLangFromPath } from '@/i18n/lang'
 import { getLocalizedPath } from '@/i18n/path'
 
-import { beian as defaultBeian } from '@/beian'
-
-let beian = defaultBeian
-
-try {
-  const mod = await import('@/beian.local')
-  beian = mod.beian
-} catch {}
+import { beian } from '@/beian'
 
 const { author } = themeConfig.site
 const { links, startYear } = themeConfig.footer
@@ -82,7 +75,7 @@ const socialLinks = links.map(({ name, url }) => {
   </p>
 
  {(beian.icp || beian.gongan) && (
-  <p class="mt-2 text-2.5 text-gray-400">
+  <p class="mt-2 text-3 text-gray-400">
     {beian.icp && (
       <a
         class="hover:text-gray-500 transition-colors"

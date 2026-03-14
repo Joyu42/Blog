@@ -1,4 +1,4 @@
 export const beian = {
-  icp: '',
-  gongan: ''
+  icp: import.meta.env.PUBLIC_ICP || '',
+  gongan: import.meta.env.PUBLIC_GONGAN || '',
 }

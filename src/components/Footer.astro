@@ -1,6 +1,11 @@
 ---
 import { themeConfig } from '@/config'
-import { beian } from '@/beian'
+
+let beian = { icp: '', gongan: '' }
+try {
+  const mod = await import('@/beian')
+  beian = mod.beian
+} catch {}
 import { getLangFromPath } from '@/i18n/lang'
 import { getLocalizedPath } from '@/i18n/path'
 

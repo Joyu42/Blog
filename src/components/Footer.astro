@@ -1,13 +1,14 @@
 ---
 import { themeConfig } from '@/config'
+import { getLangFromPath } from '@/i18n/lang'
+import { getLocalizedPath } from '@/i18n/path'
 
 let beian = { icp: '', gongan: '' }
+
 try {
   const mod = await import('@/beian')
   beian = mod.beian
 } catch {}
-import { getLangFromPath } from '@/i18n/lang'
-import { getLocalizedPath } from '@/i18n/path'
 
 const { author } = themeConfig.site
 const { links, startYear } = themeConfig.footer
@@ -78,11 +79,31 @@ const socialLinks = links.map(({ name, url }) => {
   Book, music, movie, tech, life.
   </p>
 
-  {(beian.icp || beian.gongan) && (
-    <p>
-      {beian.icp && <a class="highlight-hover py-0.8 transition-colors after:bottom-0.35em hover:c-primary" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">{beian.icp}</a>}
-      {beian.icp && beian.gongan && ' / '}
-      {beian.gongan && <a class="highlight-hover py-0.8 transition-colors after:bottom-0.35em hover:c-primary" href="https://beian.mps.gov.cn/" target="_blank" rel="noopener noreferrer">{beian.gongan}</a>}
-    </p>
-  )}
+ {(beian.icp || beian.gongan) && (
+  <p class="mt-2 text-2.5 text-gray-400">
+    {beian.icp && (
+      <a
+        class="hover:text-gray-500 transition-colors"
+        href="https://beian.miit.gov.cn/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {beian.icp}
+      </a>
+    )}
+
+    {beian.icp && beian.gongan && ' / '}
+
+    {beian.gongan && (
+      <a
+        class="hover:text-gray-500 transition-colors"
+        href="https://beian.mps.gov.cn/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {beian.gongan}
+      </a>
+    )}
+  </p>
+)}
 </footer>

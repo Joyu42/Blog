@@ -26,4 +26,4 @@ pnpm-debug.log*
 !.vscode/settings.json
 
 # 备案信息
-src/beian.ts
+src/beian.local.ts

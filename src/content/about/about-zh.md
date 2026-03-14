@@ -14,9 +14,6 @@ class Blog{
 public:
     std::string name, author, url;
 
-<<<<<<< HEAD
-Retypeset 是一款基于 [Astro](https://astro.build/) 框架的静态博客主题，中文名为重新编排。本主题以 [活版印字](https://astro-theme-typography.vercel.app/) 为设计灵感，通过建立全新的视觉规范，对所有页面进行重新编排，打造纸质书页般的阅读体验，再现版式之美。所见皆为细节，方寸尽显优雅。
-=======
     Blog(const std::string& name, const std::string& author, const std::string& url)
     : name(name), author(author), url(url) {}
 };
@@ -45,4 +42,3 @@ int main(){
 > ### _**假如再也不能见到你，祝你早安，午安和晚安。**_
 >
 > -- <cite>《楚门的世界》</cite>
->>>>>>> ebb1fae (26-2-3 00:16)

@@ -14,9 +14,6 @@ class Blog{
 public:
     std::string name, author, url;
 
-<<<<<<< HEAD
-Retypeset es un tema de blog estático basado en el framework [Astro](https://astro.build/). Inspirado por [Typography](https://astro-theme-typography.vercel.app/), Retypeset establece un nuevo estándar visual y reimagina el diseño de todas las páginas, creando una experiencia de lectura similar a la de los libros impresos, reviviendo la belleza de la tipografía. Detalles en cada mirada, elegancia en cada espacio.
-=======
     Blog(const std::string& name, const std::string& author, const std::string& url)
     : name(name), author(author), url(url) {}
 };
@@ -46,4 +43,3 @@ Si quieres charlar, **no dudes en enviarme un correo electrónico (gbc@joyu.ink)
 >
 > -- <cite>The Truman Show</cite>
 
->>>>>>> ebb1fae (26-2-3 00:16)

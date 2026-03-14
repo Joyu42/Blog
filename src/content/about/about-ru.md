@@ -14,9 +14,6 @@ class Blog{
 public:
     std::string name, author, url;
 
-<<<<<<< HEAD
-Retypeset — это статическая тема блога, основанная на фреймворке [Astro](https://astro.build/). Вдохновленная [Typography](https://astro-theme-typography.vercel.app/), Retypeset устанавливает новый визуальный стандарт и переосмысливает компоновку всех страниц, создавая опыт чтения, напоминающий печатные книги, возрождая красоту типографики. Детали в каждом взгляде, элегантность в каждом пространстве.
-=======
     Blog(const std::string& name, const std::string& author, const std::string& url)
     : name(name), author(author), url(url) {}
 };
@@ -46,4 +43,3 @@ int main(){
 >
 > -- <cite>Шоу Трумана</cite>
 
->>>>>>> ebb1fae (26-2-3 00:16)

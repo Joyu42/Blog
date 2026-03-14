@@ -14,9 +14,6 @@ class Blog{
 public:
     std::string name, author, url;
 
-<<<<<<< HEAD
-Retypeset は、日本語では「再組版」と呼ばれる、[Astro](https://astro.build/) フレームワークをベースにした静的ブログテーマです。[活版印字](https://astro-theme-typography.vercel.app/) からデザインのインスピレーションを得て、新しい視覚的な規範を確立し、すべてのページのレイアウトを再構成することで、紙の書籍のような読書体験を提供し、版面の美しさを蘇らせます。見るものすべてが細部にこだわり、限られたスペースの中に優雅さを表現しています。
-=======
     Blog(const std::string& name, const std::string& author, const std::string& url)
     : name(name), author(author), url(url) {}
 };
@@ -46,4 +43,3 @@ Joyuです。まだ学習の途上にいる学部生です。\
 >
 > -- <cite>『トゥルーマン・ショー』</cite>
 
->>>>>>> ebb1fae (26-2-3 00:16)

@@ -18,8 +18,8 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Ng","https://www.joyu.ink");
-    std::cout<<"Thoughts into Bytes."<<std::endl;
+    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    std::cout<<"Far away, farther still"<<std::endl;
     return 0;
 }
 ```
@@ -42,4 +42,3 @@ If you want to chat, **feel free to email me at (gbc@joyu.ink).**
 > ### _**In case I don't see you, good afternoon, good evening, and good night.**_
 >
 > -- <cite>The Truman Show</cite>
-

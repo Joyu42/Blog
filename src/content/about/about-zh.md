@@ -18,8 +18,8 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Ng","https://www.joyu.ink");
-    std::cout<<"Thoughts into Bytes."<<std::endl;
+    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    std::cout<<"向着远方 遥远的远方"<<std::endl;
     return 0;
 }
 ```

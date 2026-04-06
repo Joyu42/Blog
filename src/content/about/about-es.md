@@ -18,8 +18,8 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Ng","https://www.joyu.ink");
-    std::cout<<"Thoughts into Bytes."<<std::endl;
+    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    std::cout<<"Lejos, cada vez más lejos"<<std::endl;
     return 0;
 }
 ```
@@ -42,4 +42,3 @@ Si quieres charlar, **no dudes en enviarme un correo electrónico (gbc@joyu.ink)
 > ### _**Por si no nos vemos luego: ¡buenos días, buenas tardes y buenas noches!**_
 >
 > -- <cite>The Truman Show</cite>
-

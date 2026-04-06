@@ -18,8 +18,8 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Ng","https://www.joyu.ink");
-    std::cout<<"Thoughts into Bytes."<<std::endl;
+    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    std::cout<<"向著遠方 遙遠的遠方"<<std::endl;
     return 0;
 }
 ```
@@ -42,4 +42,3 @@ int main(){
 > ### _**假如再也不能見到你，祝你早安，午安和晚安。**_
 >
 > -- <cite>《楚門的世界》</cite>
-

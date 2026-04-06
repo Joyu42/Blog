@@ -1,7 +1,7 @@
 export const ui = {
   'de': {
     title: 'Joyu\'s Blog',
-    subtitle: 'Gedanken in Bytes',
+    subtitle: 'Weit hinaus, noch weiter',
     description: 'Bücher, Musik, Technik, Leben.',
     posts: 'Beiträge',
     tags: 'Schlagwörter',
@@ -10,7 +10,7 @@ export const ui = {
   },
   'en': {
     title: 'Joyu\'s Blog',
-    subtitle: 'Thoughts into Bytes.',
+    subtitle: 'Far away, farther still',
     description: 'Book, music, tech, life.',
     posts: 'Posts',
     tags: 'Tags',
@@ -19,7 +19,7 @@ export const ui = {
   },
   'es': {
     title: 'Joy\'s Blog',
-    subtitle: 'Pensamientos en Bytes',
+    subtitle: 'Lejos, cada vez más lejos',
     description: 'Libros, música, tecnología, vida.',
     posts: 'Artículos',
     tags: 'Etiquetas',
@@ -28,7 +28,7 @@ export const ui = {
   },
   'fr': {
     title: 'Joyu\'s Blog',
-    subtitle: 'Pensées en octets',
+    subtitle: 'Au loin, toujours plus loin',
     description: 'Livres, musique, technologie, vie.',
     posts: 'Articles',
     tags: 'Étiquettes',
@@ -37,7 +37,7 @@ export const ui = {
   },
   'ja': {
     title: 'Joyu\'s Blog',
-    subtitle: '思考をバイトに',
+    subtitle: '遥か遠くへ　まだ遠くへ',
     description: '本、音楽、技術、人生。',
     posts: '記事',
     tags: 'タグ',
@@ -46,7 +46,7 @@ export const ui = {
   },
   'ko': {
     title: 'Joyu\'s Blog',
-    subtitle: '생각을 바이트로',
+    subtitle: '아득히, 더 멀리',
     description: '책, 음악, 기술, 삶.',
     posts: '게시물',
     tags: '태그',
@@ -55,7 +55,7 @@ export const ui = {
   },
   'pl': {
     title: 'Joyu\'s Blog',
-    subtitle: 'Myśli w bajty',
+    subtitle: 'Daleko, jeszcze dalej',
     description: 'Książki, muzyka, technologia, życie.',
     posts: 'Artykuły',
     tags: 'Tagi',
@@ -64,7 +64,7 @@ export const ui = {
   },
   'pt': {
     title: 'Joyu\'s Blog',
-    subtitle: 'Pensamentos em Bytes',
+    subtitle: 'Ao longe, mais longe ainda',
     description: 'Livros, música, tecnologia, vida.',
     posts: 'Artigos',
     tags: 'Tags',
@@ -73,7 +73,7 @@ export const ui = {
   },
   'ru': {
     title: 'Joyu\'s Blog',
-    subtitle: 'Мысли в байты',
+    subtitle: 'Всё дальше, всё дальше вдаль',
     description: 'Книги, музыка, технологии, жизнь.',
     posts: 'Посты',
     tags: 'Теги',
@@ -82,7 +82,7 @@ export const ui = {
   },
   'zh': {
     title: 'Joyu\'s Blog',
-    subtitle: '思绪化为字节',
+    subtitle: '向着远方 遥远的远方',
     description: '书籍、音乐、技术、生活。',
     posts: '文章',
     tags: '标签',
@@ -91,7 +91,7 @@ export const ui = {
   },
   'zh-tw': {
     title: 'Joyu\'s Blog',
-    subtitle: '思緒化為位元組',
+    subtitle: '向著遠方 遙遠的遠方',
     description: '書籍、音樂、技術、生活。',
     posts: '文章',
     tags: '標籤',

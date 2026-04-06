@@ -18,8 +18,8 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Ng","https://www.joyu.ink");
-    std::cout<<"Thoughts into Bytes."<<std::endl;
+    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    std::cout<<"遥か遠くへ　まだ遠くへ"<<std::endl;
     return 0;
 }
 ```
@@ -42,4 +42,3 @@ Joyuです。まだ学習の途上にいる学部生です。\
 > ### _**会えない時のために、こんにちは、こんばんは、そしておやすみ。**_
 >
 > -- <cite>『トゥルーマン・ショー』</cite>
-

@@ -18,8 +18,8 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Ng","https://www.joyu.ink");
-    std::cout<<"Thoughts into Bytes."<<std::endl;
+    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    std::cout<<"Всё дальше, всё дальше вдаль"<<std::endl;
     return 0;
 }
 ```
@@ -42,4 +42,3 @@ int main(){
 > ### _**И на случай, если мы больше не увидимся — добрый день, добрый вечер и доброй ночи!**_
 >
 > -- <cite>Шоу Трумана</cite>
-

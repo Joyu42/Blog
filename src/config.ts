@@ -6,7 +6,7 @@ export const themeConfig: ThemeConfig = {
     // site title
     title: 'Joyu\'s Blog',
     // site subtitle
-    subtitle: 'Thoughts into Bytes.',
+    subtitle: 'Far away, farther still',
     // site description
     description: 'Book,music,movie,tech,life.',
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above

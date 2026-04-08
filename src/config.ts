@@ -179,7 +179,7 @@ dark: {
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/Kreo42',
+        url: 'https://github.com/Kreouu',
       },
       {
         name: 'Email',

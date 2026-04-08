@@ -18,7 +18,7 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    Blog site("Kreo's Blog","Kreo Wu","https://kreo.ink");
     std::cout<<"Lejos, cada vez más lejos"<<std::endl;
     return 0;
 }
@@ -26,7 +26,7 @@ int main(){
 # Sobre mí
 ¡Hola!
 
-Soy Joyu, un estudiante universitario que sigue aprendiendo.\
+Soy Kreo, un estudiante universitario que sigue aprendiendo.\
 Me apasiona experimentar con la tecnología y ocasionalmente me sumerjo en el mundo de los libros, el cine y la música.
 :::fold[♥️]
 *    **Book**: *Crimen y castigo*, *Tres días de felicidad*, *El mito de Sísifo*
@@ -36,7 +36,7 @@ Me apasiona experimentar con la tecnología y ocasionalmente me sumerjo en el mu
 :::
 Encantado de conocerte en Internet. 😊
 
-Si quieres charlar, **no dudes en enviarme un correo electrónico (gbc@joyu.ink).**
+Si quieres charlar, **no dudes en enviarme un correo electrónico (kreouu@gmail.com).**
 
 ---
 > ### _**Por si no nos vemos luego: ¡buenos días, buenas tardes y buenas noches!**_

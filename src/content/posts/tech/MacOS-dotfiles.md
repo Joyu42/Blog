@@ -18,7 +18,7 @@ abbrlink: ''
 ---
 # MacOS下的一些dotfiles及软件分享
 (部分配置文件可在以下仓库中找到)
-::github{repo="Joyu42/dotfiles"}
+::github{repo="Kreouu/dotfiles"}
 ## [homebrew](https://github.com/Homebrew/brew)-软件包管理器
 伟大无须多言
 ```bash

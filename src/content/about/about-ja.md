@@ -18,7 +18,7 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    Blog site("Kreo's Blog","Kreo Wu","https://kreo.ink");
     std::cout<<"遥か遠くへ　まだ遠くへ"<<std::endl;
     return 0;
 }
@@ -26,7 +26,7 @@ int main(){
 # 私について
 こんにちは！
 
-Joyuです。まだ学習の途上にいる学部生です。\
+Kreoです。まだ学習の途上にいる学部生です。\
 技術いじりが好きで、たまに本や映画、音楽の世界に耽っています。
 :::fold[♥️]
 *    **Book**: 『罪と罰』、『三日間の幸福』、『シーシュポスの神話』
@@ -36,7 +36,7 @@ Joyuです。まだ学習の途上にいる学部生です。\
 :::
 インターネットでお会いできて嬉しいです。😊
 
-お話ししたいことがあれば、**お気軽にメール（gbc@joyu.ink）を送ってください。**
+お話ししたいことがあれば、**お気軽にメール（kreouu@gmail.com）を送ってください。**
 
 ---
 > ### _**会えない時のために、こんにちは、こんばんは、そしておやすみ。**_

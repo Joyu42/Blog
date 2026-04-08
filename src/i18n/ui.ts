@@ -1,6 +1,6 @@
 export const ui = {
   'de': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: 'Weit hinaus, noch weiter',
     description: 'Bücher, Musik, Technik, Leben.',
     posts: 'Beiträge',
@@ -9,7 +9,7 @@ export const ui = {
     toc: 'Inhaltsverzeichnis',
   },
   'en': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: 'Far away, farther still',
     description: 'Book, music, tech, life.',
     posts: 'Posts',
@@ -18,7 +18,7 @@ export const ui = {
     toc: 'Table of Contents',
   },
   'es': {
-    title: 'Joy\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: 'Lejos, cada vez más lejos',
     description: 'Libros, música, tecnología, vida.',
     posts: 'Artículos',
@@ -27,7 +27,7 @@ export const ui = {
     toc: 'Índice',
   },
   'fr': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: 'Au loin, toujours plus loin',
     description: 'Livres, musique, technologie, vie.',
     posts: 'Articles',
@@ -36,7 +36,7 @@ export const ui = {
     toc: 'Table des matières',
   },
   'ja': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: '遥か遠くへ　まだ遠くへ',
     description: '本、音楽、技術、人生。',
     posts: '記事',
@@ -45,7 +45,7 @@ export const ui = {
     toc: '目次',
   },
   'ko': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: '아득히, 더 멀리',
     description: '책, 음악, 기술, 삶.',
     posts: '게시물',
@@ -54,7 +54,7 @@ export const ui = {
     toc: '목차',
   },
   'pl': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: 'Daleko, jeszcze dalej',
     description: 'Książki, muzyka, technologia, życie.',
     posts: 'Artykuły',
@@ -63,7 +63,7 @@ export const ui = {
     toc: 'Spis treści',
   },
   'pt': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: 'Ao longe, mais longe ainda',
     description: 'Livros, música, tecnologia, vida.',
     posts: 'Artigos',
@@ -72,7 +72,7 @@ export const ui = {
     toc: 'Sumário',
   },
   'ru': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: 'Всё дальше, всё дальше вдаль',
     description: 'Книги, музыка, технологии, жизнь.',
     posts: 'Посты',
@@ -81,7 +81,7 @@ export const ui = {
     toc: 'Оглавление',
   },
   'zh': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: '向着远方 遥远的远方',
     description: '书籍、音乐、技术、生活。',
     posts: '文章',
@@ -90,7 +90,7 @@ export const ui = {
     toc: '目录',
   },
   'zh-tw': {
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     subtitle: '向著遠方 遙遠的遠方',
     description: '書籍、音樂、技術、生活。',
     posts: '文章',

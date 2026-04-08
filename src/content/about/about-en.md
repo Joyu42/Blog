@@ -18,7 +18,7 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    Blog site("Kreo's Blog","Kreo Wu","https://kreo.ink");
     std::cout<<"Far away, farther still"<<std::endl;
     return 0;
 }
@@ -26,7 +26,7 @@ int main(){
 # Me
 Hi!
 
-I am Joyu, an undergraduate student still on the path of learning.\
+I am Kreo, an undergraduate student still on the path of learning.\
 I love tinkering with technology and occasionally immersing myself in the world of books, movies, and music.
 :::fold[♥️]
 *    **Book**: *Crime and Punishment*, *Three Days of Happiness*, *The Myth of Sisyphus*
@@ -36,7 +36,7 @@ I love tinkering with technology and occasionally immersing myself in the world 
 :::
 Nice to meet you on the internet. 😊
 
-If you want to chat, **feel free to email me at (gbc@joyu.ink).**
+If you want to chat, **feel free to email me at (kreouu@gmail.com).**
 
 ---
 > ### _**In case I don't see you, good afternoon, good evening, and good night.**_

@@ -18,7 +18,7 @@ public:
     : name(name), author(author), url(url) {}
 };
 int main(){
-    Blog site("Joyu's Blog","Joyu Wu","https://www.joyu.ink");
+    Blog site("Kreo's Blog","Kreo Wu","https://kreo.ink");
     std::cout<<"向著遠方 遙遠的遠方"<<std::endl;
     return 0;
 }
@@ -26,7 +26,7 @@ int main(){
 # 我
 你好！
 
-我是 Joyu，一名本科生，還在學習的路上。\
+我是 Kreo，一名本科生，還在學習的路上。\
 熱衷於折騰技術，也偶爾沉溺於書影音的世界。
 :::fold[♥️]
 *    **Book**: 《罪與罰》，《三日間的幸福》，《薛西弗斯的神話》
@@ -36,7 +36,7 @@ int main(){
 :::
 很高興在互聯網上與你相識。😊
 
-如果想跟我聊聊，**歡迎發郵件給我（gbc@joyu.ink）。**
+如果想跟我聊聊，**歡迎發郵件給我（kreouu@gmail.com）。**
 
 ---
 > ### _**假如再也不能見到你，祝你早安，午安和晚安。**_

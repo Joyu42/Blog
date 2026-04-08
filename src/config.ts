@@ -4,7 +4,7 @@ export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
     // site title
-    title: 'Joyu\'s Blog',
+    title: 'Kreo\'s Blog',
     // site subtitle
     subtitle: 'Far away, farther still',
     // site description
@@ -12,9 +12,9 @@ export const themeConfig: ThemeConfig = {
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: true, // true | false
     // author name
-    author: 'Joyu',
+    author: 'Kreo',
     // site url
-    url: 'https://joyu.ink',
+    url: 'https://kreo.ink',
     // base path
     // root directory for all pages and assets
     base: '/', // e.g., '/blog', '/docs'
@@ -179,11 +179,11 @@ dark: {
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/Joyu42',
+        url: 'https://github.com/Kreo42',
       },
       {
         name: 'Email',
-        url: 'gbc@joyu.ink',
+        url: 'kreouu@gmail.com',
       },
       // {
       //   name: 'X',
